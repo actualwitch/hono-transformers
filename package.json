@@ -1,0 +1,25 @@
+{
+  "name": "hono-transformers",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/actualwitch/hono-transformers.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/actualwitch/hono-transformers/issues"
+  },
+  "homepage": "https://github.com/actualwitch/hono-transformers#readme",
+  "description": "",
+  "dependencies": {
+    "@hono/node-server": "^1.11.3",
+    "@xenova/transformers": "file:../transformers.js",
+    "hono": "^4.4.6",
+    "tsx": "^4.15.6"
+  }
+}
